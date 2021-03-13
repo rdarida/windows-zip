@@ -1,7 +1,5 @@
-function hello(name = 'World') {
-  return `Hello, ${name}!`;
-}
+const { unzipSync } = require('./unzip');
 
 module.exports = {
-  hello
+  unzipSync
 };
