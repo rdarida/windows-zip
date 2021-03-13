@@ -30,15 +30,20 @@
     "dist"
   ],
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "jest",
     "prebuild": "rimraf dist",
-    "build": "babel src --out-dir dist"
+    "build": "babel src --out-dir dist",
+    "release": "standard-version",
+    "postrelease": "git push --follow-tags origin main",
+    "prepublishOnly": "npm run build"
   },
   "dependencies": {},
   "devDependencies": {
     "@babel/cli": "^7.13.10",
     "@babel/core": "^7.13.10",
     "@babel/preset-env": "^7.13.10",
-    "rimraf": "^3.0.2"
+    "jest": "^26.6.3",
+    "rimraf": "^3.0.2",
+    "standard-version": "^9.1.1"
   }
 }
