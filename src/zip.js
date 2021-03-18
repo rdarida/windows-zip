@@ -15,8 +15,10 @@ function zipSync(path, dest) {
     'powershell.exe',
     [
       'Compress-Archive',
-      '-Path', path.map(p => `"${p}"`).join(', '),
-      '-DestinationPath', `"${dest}"`,
+      '-Path',
+      path.map((p) => `"${p}"`).join(', '),
+      '-DestinationPath',
+      `"${dest}"`,
       '-Force'
     ],
     {

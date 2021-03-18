@@ -11,8 +11,10 @@ function unzipSync(path, dest) {
     'powershell.exe',
     [
       'Expand-Archive',
-      '-Path', `"${path}"`,
-      '-DestinationPath', `"${dest}"`,
+      '-Path',
+      `"${path}"`,
+      '-DestinationPath',
+      `"${dest}"`,
       '-Force'
     ],
     {
