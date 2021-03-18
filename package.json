@@ -34,6 +34,7 @@
   "scripts": {
     "format": "prettier --write \"**/{src,test}/*.{js,json}\"",
     "lint": "eslint ./{src,test}/**/*.js",
+    "pretest": "rimraf coverage",
     "test": "jest",
     "predocs": "rimraf docs",
     "docs": "jsdoc -c jsdoc.config.json",

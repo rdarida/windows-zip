@@ -1,5 +1,8 @@
 {
   "testEnvironment": "node",
   "testRegex": "/test/.*\\.(test|spec)?\\.js$",
-  "moduleFileExtensions": ["js", "json", "node"]
+  "moduleFileExtensions": ["js", "json", "node"],
+  "collectCoverage": true,
+  "collectCoverageFrom": ["./src/**/*.js"],
+  "coveragePathIgnorePatterns": ["/node_modules/", "/test/"]
 }
