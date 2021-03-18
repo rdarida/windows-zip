@@ -1,4 +1,4 @@
-# windows-zip
+# windows-zip ![Dependencies](https://david-dm.org/rdarida/windows-zip/status.svg) ![Development Dependencies](https://david-dm.org/rdarida/windows-zip/dev-status.svg)
 Zipping and unzipping on Windows.
 
 ## Install
