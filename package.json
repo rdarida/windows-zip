@@ -35,6 +35,8 @@
     "format": "prettier --write \"**/{src,test}/*.{js,json}\"",
     "lint": "eslint ./{src,test}/**/*.js",
     "test": "jest",
+    "predocs": "rimraf docs",
+    "docs": "jsdoc -c jsdoc.config.json",
     "prebuild": "rimraf dist",
     "build": "babel src --out-dir dist",
     "release": "standard-version",
@@ -48,6 +50,7 @@
     "@babel/preset-env": "^7.13.10",
     "eslint": "^7.22.0",
     "jest": "^26.6.3",
+    "jsdoc": "^3.6.6",
     "prettier": "^2.2.1",
     "rimraf": "^3.0.2",
     "standard-version": "^9.1.1"
