@@ -1,6 +1,10 @@
 # windows-zip ![Dependencies](https://david-dm.org/rdarida/windows-zip/status.svg) ![Development Dependencies](https://david-dm.org/rdarida/windows-zip/dev-status.svg)
 Zipping and unzipping on Windows.
 
+## How was it made?
+- [Project Bootstrap](https://medium.com/weekly-webtips/publishing-a-real-nodejs-package-project-bootstrap-9c2b7c699237)
+- [Implementation and Testing](https://medium.com/weekly-webtips/publishing-a-real-nodejs-package-implementation-and-tests-b2ac1486d96)
+
 ## Install
 ```
 npm install windows-zip
