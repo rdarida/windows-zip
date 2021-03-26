@@ -5,6 +5,7 @@
     "**/.hg": true,
     "**/CVS": true,
     "**/.DS_Store": true,
+    "**/.husky": true,
     "**/coverage": true,
     "**/dist": true,
     "**/docs": true,
