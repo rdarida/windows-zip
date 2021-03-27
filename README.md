@@ -50,3 +50,4 @@ Extracts files from a specified achive file (`path`) to the `dest` directory.
 - [Microsoft Docs: Expand-Archive](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.archive/expand-archive?view=powershell-7.1)
 - [How to create a zip archive with PowerShell?](https://stackoverflow.com/questions/1153126/how-to-create-a-zip-archive-with-powershell)
 - [Using PowerShell to Create ZIP Archives and Unzip Files](https://blog.netwrix.com/2018/11/06/using-powershell-to-create-zip-archives-and-unzip-files/)
+- [Solution for the husky bug](https://github.com/typicode/husky/issues/896#issuecomment-795992717)

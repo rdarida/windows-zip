@@ -50,20 +50,11 @@
     "@babel/cli": "^7.13.10",
     "@babel/core": "^7.13.10",
     "@babel/preset-env": "^7.13.10",
-    "@commitlint/cli": "^11.0.0",
-    "@commitlint/config-conventional": "^11.0.0",
     "eslint": "^7.22.0",
-    "husky": "^4.3.0",
     "jest": "^26.6.3",
     "jsdoc": "^3.6.6",
     "prettier": "^2.2.1",
     "rimraf": "^3.0.2",
     "standard-version": "^9.1.1"
-  },
-  "husky": {
-    "hooks": {
-      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS",
-      "post-commit": "npm run format"
-    }
   }
 }
