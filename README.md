@@ -1,4 +1,4 @@
-# windows-zip ![Dependencies](https://david-dm.org/rdarida/windows-zip/status.svg) ![Development Dependencies](https://david-dm.org/rdarida/windows-zip/dev-status.svg)
+# windows-zip ![Dependencies](https://david-dm.org/rdarida/windows-zip/status.svg) ![Development Dependencies](https://david-dm.org/rdarida/windows-zip/dev-status.svg) [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=rdarida_windows-zip&metric=alert_status)](https://sonarcloud.io/dashboard?id=rdarida_windows-zip)
 Zipping and unzipping on Windows.
 
 ## How was it made
