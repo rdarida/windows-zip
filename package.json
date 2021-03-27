@@ -32,7 +32,6 @@
     "index.d.ts"
   ],
   "scripts": {
-    "postinstall": "npx husky install",
     "format": "prettier --write \"**/{src,test}/*.{js,json}\"",
     "lint": "eslint ./{src,test}/**/*.js",
     "pretest": "rimraf coverage",
