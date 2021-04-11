@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.6](https://github.com/rdarida/windows-zip/compare/v0.0.5...v0.0.6) (2021-04-11)
+
+
+### Features
+
+* use typescript ([c5ae215](https://github.com/rdarida/windows-zip/commit/c5ae215777270616667d44fb2ce561cba13f6c0a))
+
 ### [0.0.5](https://github.com/rdarida/windows-zip/compare/v0.0.3...v0.0.5) (2021-04-02)
 
 

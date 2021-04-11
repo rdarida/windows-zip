@@ -1,8 +1,8 @@
-const { join } = require('path');
-const rimraf = require('rimraf');
-const { mkdirSync, readFileSync } = require('fs');
+import { join } from 'path';
+import rimraf from 'rimraf';
+import { mkdirSync, readFileSync } from 'fs';
 
-const { zipSync, unzipSync } = require('../src');
+import { zipSync, unzipSync } from '../src';
 
 const TXT1 = 'test data 1.txt';
 const TXT2 = 'test data 2.txt';
