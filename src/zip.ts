@@ -1,4 +1,4 @@
-const { execFileSync } = require('child_process');
+import { execFileSync } from 'child_process';
 
 /**
  * Creates a compressed archive, or zipped file, from specified files and directories.
@@ -6,7 +6,7 @@ const { execFileSync } = require('child_process');
  * @param {string|string[]} path Specifies the path or paths to the files to add to the archive zipped file.
  * @param {string} dest Specifies the path to the archive output file.
  */
-function zipSync(path, dest) {
+export function zipSync(path: string | string[], dest: string): void {
   if (!Array.isArray(path)) {
     path = [path];
   }
@@ -27,7 +27,3 @@ function zipSync(path, dest) {
     }
   );
 }
-
-module.exports = {
-  zipSync
-};

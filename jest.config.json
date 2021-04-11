@@ -1,7 +1,9 @@
 {
   "testEnvironment": "node",
-  "testRegex": "/test/.*\\.(test|spec)?\\.js$",
-  "moduleFileExtensions": ["js", "json", "node"],
-  "collectCoverageFrom": ["./src/**/*.js"],
-  "coveragePathIgnorePatterns": ["/node_modules/", "/test/"]
+  "transform": {
+    "^.+\\.ts$": "ts-jest"
+  },
+  "testRegex": "(/test/.*|(\\.|/)test)\\.ts$",
+  "collectCoverageFrom": ["./src/**/*.ts"],
+  "coveragePathIgnorePatterns": ["/node_modules/", "/dist/", "/test/", "/src/cli.ts"]
 }

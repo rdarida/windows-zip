@@ -1,4 +1,4 @@
-const { execFileSync } = require('child_process');
+import { execFileSync } from 'child_process';
 
 /**
  * Extracts files from a specified achive (zipped) file.
@@ -6,7 +6,7 @@ const { execFileSync } = require('child_process');
  * @param {string} path Specifies the path to the archive file.
  * @param {string} dest Specifies the path to the output folder.
  */
-function unzipSync(path, dest) {
+export function unzipSync(path: string, dest: string): void {
   execFileSync(
     'powershell.exe',
     [
@@ -23,7 +23,3 @@ function unzipSync(path, dest) {
     }
   );
 }
-
-module.exports = {
-  unzipSync
-};
