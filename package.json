@@ -1,7 +1,7 @@
 {
   "name": "windows-zip",
   "description": "Zipping and unzipping on Windows.",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "author": "Róbert Darida",
   "license": "MIT",
   "keywords": [
