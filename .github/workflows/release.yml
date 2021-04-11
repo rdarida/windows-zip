@@ -40,7 +40,7 @@ jobs:
           git-user: 'rdarida'
           git-email: 'rdarida@users.noreply.github.com'
           git-base-folder: 'docs'
-          commit-message: 'Automatic deploy'
+          commit-message: 'chore: automatic deploy'
 
       - name: Publish project
         run: npm publish --access public
