@@ -1,5 +1,18 @@
-# windows-zip ![Dependencies](https://david-dm.org/rdarida/windows-zip/status.svg) ![Development Dependencies](https://david-dm.org/rdarida/windows-zip/dev-status.svg) [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=rdarida_windows-zip&metric=alert_status)](https://sonarcloud.io/dashboard?id=rdarida_windows-zip)
-Zipping and unzipping on Windows.
+<h1 align="center">windows-zip</h1>
+<p align="center">Zipping and unzipping on Windows.</p>
+<p align="center">
+  <a href="https://github.com/rdarida/windows-zip/actions/workflows/release.yml" target="_blank" alt="Release Action">
+    <img src="https://github.com/rdarida/windows-zip/actions/workflows/release.yml/badge.svg" alt="Release Badge">
+  </a>
+
+  <a href="https://sonarcloud.io/dashboard?id=rdarida_windows-zip" target="_blank" alt="SonarCloud">
+    <img src="https://sonarcloud.io/api/project_badges/measure?project=rdarida_windows-zip&metric=alert_status" alt="Quality Gate Status">
+  </a>
+
+  <img src="https://david-dm.org/rdarida/windows-zip/status.svg" alt="dependencies">
+  <img src="https://david-dm.org/rdarida/windows-zip/dev-status.svg" alt="devDependencies">
+</p>
+<hr>
 
 ## How was it made
 - [Project Bootstrap](https://medium.com/weekly-webtips/publishing-a-real-nodejs-package-project-bootstrap-9c2b7c699237)
