@@ -1,9 +1,0 @@
-{
-  "testEnvironment": "node",
-  "transform": {
-    "^.+\\.ts$": "ts-jest"
-  },
-  "testRegex": "(/test/.*|(\\.|/)test)\\.ts$",
-  "collectCoverageFrom": ["./src/**/*.ts"],
-  "coveragePathIgnorePatterns": ["/node_modules/", "/dist/", "/test/", "/src/cli.ts"]
-}
