@@ -17,6 +17,8 @@
 ## How was it made
 - [Project Bootstrap](https://medium.com/weekly-webtips/publishing-a-real-nodejs-package-project-bootstrap-9c2b7c699237)
 - [Implementation and Testing](https://medium.com/weekly-webtips/publishing-a-real-nodejs-package-implementation-and-tests-b2ac1486d96)
+- [Code Quality Improvements](https://medium.com/weekly-webtips/publishing-a-real-nodejs-package-code-quality-improvements-b86b638df3cf)
+- [Publishing with GitHub Actions](https://medium.com/weekly-webtips/publishing-a-real-nodejs-package-publishing-with-github-actions-237be5b5eaf6)
 
 ## Install
 ```
